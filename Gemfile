@@ -10,6 +10,11 @@ end
 gem 'rails', '~> 5.1.6', '>= 5.1.6.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.0'
+
+# Use bootstrap
+gem 'bootstrap', '~> 4.3.1'
+# Bootstrap JavaScript depends on jQuery. If you're using Rails 5.1+, add the jquery-rails gem to your Gemfile:
+gem 'jquery-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
