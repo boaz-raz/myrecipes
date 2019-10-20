@@ -7,7 +7,7 @@ class RecipesTest < ActionDispatch::IntegrationTest
   end
 
 
-  # we need a user
+# we need a user
 def setup 
 	@chef = Chef.create!(chefname: "boazraz", email: "boaz@example.com")
   @recipe = Recipe.create(name: "vegetable saute", description: "greate vegetable sautee, add vegetable and oil", chef: @chef)
@@ -15,9 +15,7 @@ def setup
   @recipe2.save
 end
 
-#now we need to see the recipes 
-
-
+#now we need to see the recipes
 test "should get recipes show" do
   get recipe_path(@recipe)
   assert_template 'recipes/show'
