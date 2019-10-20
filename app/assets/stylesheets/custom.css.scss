@@ -2,7 +2,7 @@
 //$navbar-default-bg: gray;
 // not wroking need to check
 $navbar-default-bg: red;
-@import "bootstrap";
+//@import "bootstrap";
 
 
 .center {
@@ -50,4 +50,20 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+.description {
+  margin-top: 0;
+}
+
+.well a {
+  color: #073b15;
+}
+
+.chef_info {
+  margin-top: 10px;
+}
+
+.colormatch a {
+  color: #073B15;
 }
